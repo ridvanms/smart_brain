@@ -104,6 +104,7 @@ class App extends Component {
         this.state.input
       )
       .then((response) => {
+        console.log("hi", response);
         if (response) {
           fetch("https://smart-brain1.onrender.com/image", {
             method: "put",
