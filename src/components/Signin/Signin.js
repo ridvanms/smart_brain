@@ -18,6 +18,7 @@ class Signin extends React.Component {
   }
 
   onSubmitSignIn = () => {
+    alert('pls wait slow server')
     fetch("https://smart-brain1.onrender.com/signin", {
       method: "post",
       headers: { "Content-Type": "application/json" },
