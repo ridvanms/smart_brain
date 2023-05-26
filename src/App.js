@@ -10,7 +10,6 @@ import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
 import Rank from "./components/Rank/Rank";
 
 import "./App.css";
-alert("on SignUp/In pls wait... slow servers");
 //You must add your own API key here from Clarifai.
 const app = new Clarifai.App({
   apiKey: "7a5042f902fb4b3b9854282d238d66a5",

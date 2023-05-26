@@ -23,7 +23,7 @@ class Register extends React.Component {
   };
 
   onSubmitSignIn = () => {
-    alert("pls wait slow server");
+    alert("Slow server...pls wait");
     fetch("https://smart-brain1.onrender.com/register", {
       method: "post",
       headers: { "Content-Type": "application/json" },
