@@ -1,5 +1,6 @@
 import React from "react";
-
+// const registerURL = `https://smart-brain1.onrender.com/register`;
+const registerURL = `http://localhost:3000/register`;
 class Register extends React.Component {
   constructor(props) {
     super(props);
@@ -24,7 +25,7 @@ class Register extends React.Component {
 
   onSubmitSignIn = () => {
     alert("Slow server...pls wait");
-    fetch("https://smart-brain1.onrender.com/register", {
+    fetch(registerURL, {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
